@@ -1,0 +1,11 @@
+ <!--No Flexbox existem duas divisões: Flex Container & Flex Item-->
+
+ A partir do momento que coloco "display:flex;" no elemento, ele vira um flex Container
+ e os itens que estão dentro dele flex itens.
+
+ "Flex wrap: wrap;" - Vai fazer com que os itens quebrem e vão para baixo.
+
+ Flex Container
+O Flex Container é a tag que envolve os itens flex, ao indicar display: flex, essa tag passa a ser um Flex Container.
+
+display: flex; // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
